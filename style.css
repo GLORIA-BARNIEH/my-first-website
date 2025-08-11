@@ -1,0 +1,94 @@
+/*Reset default margins and paddings*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+/* Body Style*/
+body{
+  font-family:Arial, san-serif;
+  line-height:2.0;
+  background-image:url('https://tse4.mm.bing.net/th/id/OIP.U-q6ehjCZA-sO3BhUcOz3wHaFw?r=0&rs=1&pid=ImgDetMain&o=7&rm=3');
+  background-attachment: fixed;
+  color:yellowgreen;
+  padding:20px;
+ 
+}
+/*===Header===*/
+header{
+  
+  color:black;
+  text-align:center;
+  margin-bottom:40px;
+  background-color:lightblue;
+  border-radius:4px;
+}
+header h1{
+  margin-bottom:10px;
+}
+/*Navigation Bar*/
+  nav a {
+    color:green;
+    margin: o 15px;
+    text-decoration:none;
+    font-weight:bold;
+  }
+
+  nav a:hover{
+    text-decoration:underline;
+  }
+  /*Min Content*/
+  main{
+    background-color:lightgreen;
+    color:black;
+    padding:20px;
+    border-radius:5px
+    
+  }
+  /*===Footer===*/
+  footer{
+    margin-top:20px;
+    text-align:center;
+    color:brown;
+  }
+  /*Block Post List*/
+  article{
+    margin-bottom:20px;
+    border-bottom:1px solid red;
+    padding-bottom:20px;
+  }
+  .ai{
+    background-color: lightpink;
+    color: black;
+    margin-top:40px;
+    border-radius:4px;
+  }
+  /*Form Styling*/
+  form input,form textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+
+  }
+  form button{
+    background-color:orange;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+  }
+  form button:hover{
+    background-color:green;
+  }
+  /*Images*/
+  img{
+    max-width:100%;
+    height:auto;
+    border-radius:15px;
+    margin-top:15px;
+  }
+  .blog-container{
+    display:grid;
+    grid-template-columns:(auto-fit,minmax(300px,1fr))
+  }
